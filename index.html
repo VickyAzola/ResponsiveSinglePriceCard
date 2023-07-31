@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <!--  Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col min-h-screen items-center justify-center bg-[#E5EFF5]" style="font-family: 'Karla', sans-serif;">
+  
+  <main class="max-w-xs shadow-2xl my-10 md:max-w-2xl md:rounded-lg">
+    <section class="bg-white px-5 py-6 rounded-t md:rounded-t-lg md:p-10">
+      <h1 class="text-[#2AB2AF] font-extrabold text-lg md:text-2xl">Join our community</h1>
+      <h6 class="text-[#C0DF34] text-sm font-bold my-4 md:mb-2 md:text-lg">30-day, hassle-free money back guarantee</h6>
+      <p class="text-[#98A6BD] text-sm leading-7 md:text-base md:leading-7 md:mr-5">Gain access to our full library of tutorials along with expert code reviews. 
+        Perfect for any developers who are serious about honing their skills.</p>
+    </section>
+
+    <div class="md:grid md:grid-cols-2">
+      <section class="text-white px-5 py-6 bg-[#2AB2AF] md:p-10 md:rounded-bl-lg">
+        <h1 class="font-bold mb-3">Monthly Subscription</h1>
+        <div class="flex gap-3 items-center">
+          <p class="font-bold text-3xl">$29</p>
+          <p class="text-sm text-[#E5EFF5] opacity-70 font-light">per month</p>
+        </div>
+        <p class="text-sm mt-3 mb-6 text-[#E5EFF5]">Full access for less than $1 a day</p>
+        <button class="bg-[#C0DF34] hover:text-[#C0DF34] hover:bg-white w-full py-3 rounded shadow-xl font-bold" type="submit">Sign Up</button>
+      </section>
+
+      <section class="px-5 py-6 md:rounded-br-lg md:rounded-bl-none rounded-b bg-[#52C7C5] md:p-10">
+        <h1 class="font-bold mb-3 text-white">Why Us</h1>
+        <ul class="text-sm text-[#E5EFF5] opacity-90 font-light">
+          <li>Tutorials by industry experts</li>
+          <li>Peer & expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to our GitHub repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p class="text-xs mb-4">
+      Challenge by <a class="text-[#2AB2AF] font-bold " href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="text-[#2AB2AF] font-bold" href="https://github.com/VickyAzola/ResponsiveSinglePriceCard" target="_blank">Victoria Azola</a>.
+    </p>
+  </footer>
+</body>
+</html>
